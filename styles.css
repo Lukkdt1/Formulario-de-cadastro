@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gowun+Batang&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 5px;
+    margin: 1px;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+    justify-content: center;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    
+}
+
+.form-image img {
+    width: 33rem;
+    height: 90%;
+}
+.form { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+
+    
+}
+.input-box {
+    justify-content: right;
+    
+}
+
