@@ -1,50 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gowun+Batang&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
 * {
     padding: 5px;
     margin: 1px;
     box-sizing: border-box;
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Inter Tight", sans-serif; 
     justify-content: center;
+    
     
 }
 
 body {
-    width: 100%;
+    background-image: url(./img/foto4.jpeg);
+    background-repeat: round;
+    width: 80%;
     height: 100vh;
     display: flex;
     justify-self: center;
     align-items: center;
-    background: #0c0ce94d;
+    /* background: #0c0ce94d; */
 }
 
 .container {
+    position: relative;
+    left: 150px;
     width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 50px;
+    background: #0c0ce94d
+    
 
 }
 
 .form-image {
-    width: 50%;
+    position: relative;
+    left: 20px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fde3a7d7;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
 
 .form-image img {
     width: 33rem;
     height: 90%;
+    border-radius: 50px;
 }
 .form { 
+    width: 100px;
+    position: relative;
+    left: 50px;
+    right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 5rem;
+    margin-right: 150px;
+    border-radius: 10px;
+    
+    
 
     
 }
@@ -53,3 +76,36 @@ body {
     
 }
 
+.login-button {
+    position: relative;
+    bottom: -425px;
+    left: 130px;
+    text-decoration: none;
+}
+
+.continue-button {
+    position: relative;
+    bottom: 46px;
+    left: 120px;
+    text-decoration: none;
+
+}
+
+.input-box {
+    
+}
+
+.title h1 {
+    position: relative;
+    bottom: -50px;
+    left: -4px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lobster', sans-serif;
+    
+}
+
+.form-header {
+    
+
+}
