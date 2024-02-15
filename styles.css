@@ -77,17 +77,19 @@ body {
 }
 
 .login-button {
+    text-decoration: none;
     position: relative;
     bottom: -425px;
     left: 130px;
-    text-decoration: none;
+    
 }
 
 .continue-button {
+    text-decoration: none;
     position: relative;
     bottom: 46px;
     left: 120px;
-    text-decoration: none;
+    
 
 }
 
@@ -105,7 +107,14 @@ body {
     
 }
 
-.form-header {
-    
 
+input {
+    border: none;
+    border-radius: 10px;
+}
+
+.gender-inputs {
+    position: relative;
+    margin: 0;
+    line-height: 0.2;
 }
